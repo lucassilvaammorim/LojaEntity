@@ -19,5 +19,7 @@ namespace Lucas.Loja.Model
         [ForeignKey("ProdutoCategoria")]
         public int ProdutoCategoriaID { get; set; }
 
+        public virtual List<VendaProduto> Vendas { get; set; }
+
     }
 }
