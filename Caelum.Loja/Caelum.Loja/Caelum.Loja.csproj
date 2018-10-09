@@ -116,8 +116,18 @@
     <Compile Include="Migrations\20180924024019_criaBanco.designer.cs">
       <DependentUpon>20180924024019_criaBanco.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\20181007190739_Migration venda.cs" />
+    <Compile Include="Migrations\20181007190739_Migration venda.designer.cs">
+      <DependentUpon>20181007190739_Migration venda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20181009022704_Heranca.cs" />
+    <Compile Include="Migrations\20181009022704_Heranca.designer.cs">
+      <DependentUpon>20181009022704_Heranca.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\ModelContextModelSnapshot.cs" />
     <Compile Include="Model\Categoria.cs" />
+    <Compile Include="Model\PessoaFisica.cs" />
+    <Compile Include="Model\PessoaJuridica.cs" />
     <Compile Include="Model\Produto.cs" />
     <Compile Include="Model\Usuario.cs" />
     <Compile Include="Model\Venda.cs" />

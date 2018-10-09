@@ -17,6 +17,10 @@ namespace Lucas.Loja.Context
         public DbSet<Venda> Vendas { get; set; }
         public DbSet<VendaProduto> VendaProduto { get; set; }
 
+        public DbSet<PessoaFisica> PessoasFisicas { get; set; }
+
+        public DbSet<PessoaJuridica> PessoasJuridicas { get; set; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             string stringConexao = ConfigurationManager.ConnectionStrings["db_lojaConnectionString"].ConnectionString;

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Lucas.Loja.Model
 {
-    public class Usuario
+    public abstract class Usuario
     {
         [Key]
         public int ID { get; set; }
